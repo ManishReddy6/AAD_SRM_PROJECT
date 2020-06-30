@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:text="0"
+        android:textSize="100sp"
+        android:gravity="center"
+        tools:ignore="InvalidId"
+        android:background="#72AF4C"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="+"
+        android:textSize="30sp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:layout_gravity="bottom"
+        android:text="-"
+        android:textSize="30sp"
+        android:background="#F44336"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:text="0"
+        android:textSize="30sp"
+        android:background="#FFEB3B"
+        android:layout_gravity="bottom"/>
+
+    <Button
+        android:id="@id/button4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.3"
+        android:text="TOAST"
+        android:textSize="30sp"
+        android:background="#00BCD4"
+        tools:ignore="InvalidId" />
+</LinearLayout>
+</LinearLayout>
