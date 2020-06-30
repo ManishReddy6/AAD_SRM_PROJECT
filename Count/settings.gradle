@@ -1,0 +1,2 @@
+include ':count'
+rootProject.name = "app"
